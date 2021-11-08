@@ -38,7 +38,7 @@
         },0)
         
        console.log('3')
-     ```
+    ```
      
        ==> 1,3,2 로 출력되어짐
        
@@ -47,11 +47,11 @@
     ```setInterval(() => {
          console.log('Hey!')
          while(true) {}
-        }, 1000) ```
+        }, 1000)
+    ```
+     5초 동안 메세지는 몇 번이나 출력되는 것이 맞을까요?
         
-        5초 동안 메세지는 몇 번이나 출력되는 것이 맞을까요?
-        
-        ==> 1번입니다. while loop를 도는 동안 call stack이 절대 비지 않기 때문입니다.
-            이 동안은 callback queue에서 콜백을 꺼낼 수가 없기 때문에, setInterval이 아무리 콜백을 쌓아도 메인 스레드에서 실행될 수가 없음.
-            이런 경우를 event loop를 block 한다고 함.
+       ==> 1번입니다. while loop를 도는 동안 call stack이 절대 비지 않기 때문입니다.
+           이 동안은 callback queue에서 콜백을 꺼낼 수가 없기 때문에, setInterval이 아무리 콜백을 쌓아도 메인 스레드에서 실행될 수가 없음.
+           이런 경우를 event loop를 block 한다고 함.
              **최대한 피하는 것이 좋음**
