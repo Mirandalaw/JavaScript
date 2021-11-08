@@ -16,8 +16,8 @@
    ```function f3() {}
       function f2() { f3() }
       function f1() { f2() }
-      f1() ```
-      
+      f1()
+   ```      
      콜 스택이란, 지금 시점까지 불린 함수들의 스택임.
      함수가 호출될 때 쌓이고, 리턴할 때 빠짐.
      
@@ -29,7 +29,7 @@
      
       * 이벤트는 파일 처리의 완료, 네트워크 작업의 완료, 타이머 호출 등이 있습니다.
     
-    > ex)
+    > ex1)
     
     ```console.log('1')
     
@@ -37,11 +37,13 @@
          console.log('2')
         },0)
         
-       console.log('3') ```
-       
+       console.log('3')
+     ```
+     
        ==> 1,3,2 로 출력되어짐
        
-       
+    > ex2)
+    
     ```setInterval(() => {
          console.log('Hey!')
          while(true) {}
