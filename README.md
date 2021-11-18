@@ -1,7 +1,11 @@
 # JavaScript - Node.js
 
+: 환경 설정 (VSC)
+
+  -
+
 : 자바스크립트의 동시성 모델 
-   - event loop, call stack, callback queue
+  - event loop, call stack, callback queue
    
   -Event loop, Main Thread
     
