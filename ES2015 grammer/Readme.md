@@ -1,4 +1,4 @@
-#*ES2015*
+#*ES6*
 
  - 최신 명세 : https://tc39.github.io/ecma262/
  
