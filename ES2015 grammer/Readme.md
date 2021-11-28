@@ -22,7 +22,7 @@
          
 
 ## *1. 변수(let과  const)* 
-
+   -호이스팅(hoisting)으로 인한 꼬임 현상 방지를 위해 let/const 사용 
 
 
 ## *2. 화살표 함수(Arrow Function)*
