@@ -73,4 +73,5 @@ elements.map(({ length }) => length); // [8, 6, 7, 9]
 
 ## *4. 분해대입(Destructuring Assignment)*
 
-
+``` const a[5] = 1;
+    
