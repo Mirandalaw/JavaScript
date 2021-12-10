@@ -2,16 +2,18 @@
    
    - nodejs.org/ko/
    - version 관리 tool
+       
        : nvm(Node Version Manager)
        
        : tj/n (Node version management)
 
 2. 개발환경 설정
 
-   1)npm(nodepackagemanage)
+   1) npm(nodepackagemanage)
       
       : 작업하고 있는 프로젝트가 npm이 관리하고 있는 패키지라는걸 알려줘야함 (package.json만들기)
-          ``` npm init -y ```
+            
+            npm init -y
           
    
    2) IDE에서 제공해주는 것
