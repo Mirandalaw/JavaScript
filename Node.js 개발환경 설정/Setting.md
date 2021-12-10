@@ -74,7 +74,7 @@
       
          js 는 컴파일을 하지 않기 때문에 (TypeScript를 사용)
          
-         1.```npm install --save-dev typescript```
+         1. ```npm install --save-dev typescript```
 
          - 사용 방법 :  ``` // @te-check ```
          
