@@ -81,3 +81,6 @@
          2. Typescript가 Node 환경에서도 사용하려면
 
            -> npm install --save-dev @types/node
+        
+         3. jsconfig.json -> web 검색하여 
+         
