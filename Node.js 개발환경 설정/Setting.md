@@ -42,7 +42,7 @@
         
       ##: Linting :ESLint
       
-         1.  npm install --save-dev eslint
+         1. ``` npm install --save-dev eslint ```
 
          2. workspace/ .eslintrc.js
 
