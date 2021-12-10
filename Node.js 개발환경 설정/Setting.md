@@ -47,7 +47,7 @@
 
          2. workspace/ .eslintrc.js
 
-                ``` module.exports={} ``` 
+                module.exports={} 
                 
                 
                => {}안에 룰들을 기재해야함
@@ -56,12 +56,9 @@
                
               -> ``` npm install --save-dev eslint-config-airbnb-base eslint-plugin-import ``` 
                
-                ``` module.exports = {
+                 module.exports = {
                      extends : ['airbnb-base', 'prettier'],
                  }
-                 
-                ```
-                   
                 
          => eslint 와 prettier가 겹치는 현상이 발생함.
          
@@ -70,8 +67,6 @@
 
             -> ``` npm install --save-dev eslint-plugin-node ```
            
-                ``` module.exports = {
+                 module.exports = {
                      extends : ['airbnb-base','plugin:node/recommended' ,'prettier'],
                  }
-                 
-                ```
