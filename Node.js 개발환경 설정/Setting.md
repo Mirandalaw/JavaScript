@@ -18,7 +18,7 @@
    
    2) IDE에서 제공해주는 것
 
-      ##: Formatting : Prettier
+      : Formatting : Prettier 
       
          1. maketplace 에서 prettier 설치
         
@@ -40,7 +40,7 @@
              }
          ```
         
-      ##: Linting :ESLint
+      : Linting :ESLint
       
          1. ``` npm install --save-dev eslint ```
 
@@ -53,7 +53,7 @@
                
             하지만, 기재할 필요없이 best plugin 중 하나의 config를 사용
                
-                ``` npm install --save-dev eslint-config-airbnb-base eslint-plugin-import ``` 
+              -> ``` npm install --save-dev eslint-config-airbnb-base eslint-plugin-import ``` 
                
                 ``` module.exports = {
                      extends : ['airbnb-base', 'prettier'],
