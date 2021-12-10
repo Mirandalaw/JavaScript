@@ -42,23 +42,25 @@
         
       : Linting :ESLint
       
-         1. ``` npm install --save-dev eslint ```
+         1.  ``` npm install --save-dev eslint ```
 
          2. workspace/ .eslintrc.js
 
-                ```module.exports={}``` => 룰들을 기재해야함
+                ```module.exports={}``` 
+                => {}안에 룰들을 기재해야함
                
-            but 일일이 기재할 필요없이 best plugin 중 하나의 config를 사용
+            하지만, 기재할 필요없이 best plugin 중 하나의 config를 사용
                
-               ```npm install --save-dev eslint-config-airbnb-base eslint-plugin-import ```
+               ``` npm install --save-dev eslint-config-airbnb-base eslint-plugin-import ```
                
-               ```module.exports = {
-                      extends : ['airbnb-base', 'prettier'],
-                   }
+               ``` 
+               module.exports = {
+                    extends : ['airbnb-base', 'prettier'],
+               }
                    
-                   ```
+               ```
       
-          => eslint 와 prettier가 겹치는 현상이 발생함.
+         => eslint 와 prettier가 겹치는 현상이 발생함.
       
                ```npm install --save-dev eslint-config-prettier```
       
