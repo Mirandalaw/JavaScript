@@ -20,16 +20,16 @@
 
       : Formatting : Prettier
       
-         fisrt) maketplace 에서 prettier 설치
+         1. maketplace 에서 prettier 설치
         
-         second)  ```npm install --save-dev prettier```
+         2.  ```npm install --save-dev prettier```
 
-          3. workspace/.prettierrc
+         3. workspace/.prettierrc
           
             : setting => "semi" : false , (세미콜론 사용하지 않음 여부)
                       => "singleQuote " : true (작은 따옴표 or 큰 따옴표) 
           
-          4. workspace/.vscode/settings.json
+         4. workspace/.vscode/settings.json
 
             : 
             ```
