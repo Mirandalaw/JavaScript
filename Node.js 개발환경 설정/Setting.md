@@ -70,10 +70,14 @@
                  module.exports = {
                      extends : ['airbnb-base','plugin:node/recommended' ,'prettier'],
                  }
-      : Type Checking 
+      : Type Checking :TypeScript
       
          js 는 컴파일을 하지 않기 때문에 (TypeScript를 사용)
          
          1.```npm install --save-dev typescript```
 
          - 사용 방법 :  ``` // @te-check ```
+         
+         2. Typescript가 Node 환경에서도 사용하려면
+
+           -> npm install --save-dev @types/node
