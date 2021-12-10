@@ -76,7 +76,7 @@
          
          1. ```npm install --save-dev typescript```
 
-         - 사용 방법 :  ``` // @te-check ```
+         - 사용 방법 :  ``` // @ts-check ```
          
          2. Typescript가 Node 환경에서도 사용하려면
 
