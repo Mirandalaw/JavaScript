@@ -19,10 +19,10 @@
    2) IDE에서 제공해주는 것
 
       : Formatting : Prettier
-         
-          1. maketplace 에서 prettier 설치
+      
+         fisrt) maketplace 에서 prettier 설치
         
-          2. ```npm install --save-dev prettier```
+         second)  ```npm install --save-dev prettier```
 
           3. workspace/.prettierrc
           
