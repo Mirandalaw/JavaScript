@@ -62,7 +62,7 @@
                 
          => eslint 와 prettier가 겹치는 현상이 발생함.
          
-            ``` npm install --save-dev eslint-config-prettier```
+            ``` npm install --save-dev eslint-config-prettier ```
          * 항시 prettier는 제일 뒤에 배치
 
             -> ``` npm install --save-dev eslint-plugin-node ```
